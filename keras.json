@@ -1,0 +1,7 @@
+{
+    "epsilon": 1e-07,
+    "backend": "theano",
+    "floatx": "float32",
+    "image_dim_ordering": "th",
+    "image_data_format": "channels_first"
+}
