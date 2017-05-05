@@ -1,6 +1,6 @@
 # Modified notebooks and Python files for Keras 2 and Python 3 from the fast.ai Deep Learning course
 The repository includes modified copies of the original Jupyter notebooks and Python files from the excellent
-(and really unique) deep learning course "Practical Deep Learning For Coders"
+(and really unique) deep learning course "Practical Deep Learning For Coders" part 1,
 created by [fast.ai](http://course.fast.ai). The [original files](https://github.com/fastai/courses)
 require Keras 1 and Python 2.
 
