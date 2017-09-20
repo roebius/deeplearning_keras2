@@ -1,7 +1,7 @@
 # Modified notebooks and Python files for Keras 2 and Python 3 from the fast.ai Deep Learning course
 The repository includes modified copies of the original Jupyter notebooks and Python files from the excellent
 (and really unique) deep learning course "Practical Deep Learning For Coders" Part 1 and Part 2,
-created by [fast.ai](http://course.fast.ai). The [original files](https://github.com/fastai/courses)
+created by [fast.ai](http://fast.ai). The [original files](https://github.com/fastai/courses)
 require Keras 1 and Python 2.
 
 ### Part 1
@@ -16,7 +16,8 @@ The files keras.json.for\_TensorFlow and keras.json.for\_Theano provide a templa
 A Python 3 virtualenv has been used for both parts. In order to facilitate the installation of the required Python packages, this repository includes 
 also the requirement files that can be used with the pip command. These files include additional packages that might be useful for further exploration.
 
-### Status and Notes about Part 2
+### Status about Part 2
+#### Notes 
 *rossman.ipynb*: I left out the "Using 3rd place data" section
 
 *spelling_bee_RNN.ipynb*: works as is. In the final "Test code ..." section I found one issue that I was not able to solve (K.conv1d not working) 
@@ -25,14 +26,14 @@ also the requirement files that can be used with the pip command. These files in
 
 *identifying comments added to the files*: I used *"# -"* to start my comments when they are not just *"# Keras 2"* 
 
-### In progress
+#### In progress
 *seq2seq-translation.ipynb* (in progress, currently the file in the _nbs2_ folder is still the original one)
 
 *tiramisu-keras.ipynb*: (in progress, currently the modified file in the _nbs2_ folder is an experiment)
 
 *tiramisu-pytorch.ipynb* (in progress, currently the file in the _nbs2_ folder is still the original one)
 
-### Left out
+#### Left out
 *neural-style-pytorch.ipynb*: no plan to go through this: I found no way to load the VGG weights; it looks like some version compatibility issue
 
 *rossman_exp.py*: no plan to go through this
