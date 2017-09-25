@@ -26,7 +26,7 @@ The comments that I inserted in the modules generally start with *"# -"* when th
 
 *taxi_data_prep_and_mlp.ipynb*: section "Uh oh ..." has been left out. Caveat: running all the notebook at once exhausted 128 GB RAM; I was able to run each section individually only after resetting the notebook kernel each time
 
-*tiramisu-keras.ipynb*: in order to run the larger size model I had to reset the notebook kernel in order to free up enough GPU memory (almost 12 GB)
+*tiramisu-keras.ipynb*: in order to run the larger size model I had to reset the notebook kernel in order to free up enough GPU memory (almost 12 GB) and jump directly to the model
 
 #### Left out
 *neural-style-pytorch.ipynb* (found no way to load the VGG weights; it looks like some version compatibility issue)
