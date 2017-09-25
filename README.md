@@ -28,7 +28,7 @@ The comments that I inserted in the modules generally start with *"# -"* when th
 
 *tiramisu-keras.ipynb*: in order to run the larger size model I had to reset the notebook kernel in order to free up enough GPU memory (almost 12 GB) and jump directly to the model
 
-#### Left out
+#### Left-out modules
 *neural-style-pytorch.ipynb* (found no way to load the VGG weights; it looks like some version compatibility issue)
 
 *rossman_exp.py*
