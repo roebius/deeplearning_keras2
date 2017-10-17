@@ -2,14 +2,14 @@
 The repository includes modified copies of the original Jupyter notebooks and Python files from the excellent
 (and really unique) deep learning course "Practical Deep Learning For Coders" Part 1 and Part 2,
 created by [fast.ai](http://fast.ai). The [original files](https://github.com/fastai/courses)
-require Keras 1 and Python 2.
+require Keras 1.
 
 ### Part 1
-Located in the _nbs_ folder. Tested on both Ubuntu 16.04 with Python 3.5 (installed through apt-get) and
+Located in the _nbs_ folder. Tested with Keras 2.0.6 on both Ubuntu 16.04 and Python 3.5 (installed through apt-get) and
 MacOS 10.12.4 with Python 3.6 (installed with Homebrew). In Part 1 the Theano backend for Keras has been used. 
 
 ### Part 2
-Located in the _nbs2_ folder. Tested on Ubuntu 16.04 with Python 3.5 (installed through apt-get). In Part 2 the TensorFlow backend for Keras has been used.  
+Located in the _nbs2_ folder. Tested with Keras 2.0.6 on Ubuntu 16.04 with Python 3.5 (installed through apt-get). In Part 2 the TensorFlow backend for Keras has been used.  
 
 The files keras.json.for\_TensorFlow and keras.json.for\_Theano provide a template for the appropriate keras.json file, based on which one of the two backends needs to be used.
 
