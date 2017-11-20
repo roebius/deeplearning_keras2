@@ -94,7 +94,7 @@ class Vgg16():
         self.compile()
 
     def finetune(self, batches):
-        self.ft(batches.num_class)  # Keras2
+        self.ft(batches.num_classes)  # Keras2
         classes = list(iter(batches.class_indices))
         for c in batches.class_indices:
             classes[batches.class_indices[c]] = c
