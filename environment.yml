@@ -181,5 +181,5 @@ dependencies:
     - tables==3.4.2
     - torch==0.3.0.post4
     - xgboost==0.7.post3
-prefix: /home/roebius/anaconda/envs/f1
+prefix: /home/roebius/anaconda/envs/p3
 
