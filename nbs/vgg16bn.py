@@ -106,7 +106,7 @@ class Vgg16BN():
         model = self.model
         model.pop()
         for layer in model.layers: layer.trainable=False
-        model.add(Dense(batches.num_class, activation='softmax'))  # Keras2
+        model.add(Dense(batches.num_classes, activation='softmax'))  # Keras 2.1
         self.compile()
 
 

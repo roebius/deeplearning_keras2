@@ -99,7 +99,7 @@ class Resnet50():
         model = self.model
         model.layers.pop()
         for layer in model.layers: layer.trainable=False
-        m = Dense(batches.num_class, activation='softmax')(model.layers[-1].output)
+        m = Dense(batches.num_classes, activation='softmax')(model.layers[-1].output)  # Keras 2.1
         self.model = Model(model.input, m)
         self.model.compile(optimizer=RMSprop(lr=0.1), loss='categorical_crossentropy', metrics=['accuracy']
  
