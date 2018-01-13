@@ -1,8 +1,9 @@
 # Modified notebooks and Python files for Keras 2 and Python 3 from the fast.ai Deep Learning course v.1
 The repository includes modified copies of the original Jupyter notebooks and Python files from the excellent
 (and really unique) deep learning course "Practical Deep Learning For Coders" Part 1 and Part 2, v.1,
-created by [fast.ai](http://fast.ai). The [original files](https://github.com/fastai/courses)
-require Keras 1.
+created by [fast.ai](http://fast.ai).
+
+The [original files](https://github.com/fastai/courses) require Keras 1. One main goal has been to modify the original files to the minimum extent possible. The comments added to the modules generally start with *"# -"* when they are not just *"# Keras 2"*.
 
 The current version of the repository has been tested with **_Keras 2.1.2_**.
 The previous version, tested with _Keras 2.0.6_, is available [here](https://github.com/roebius/deeplearning_keras2/releases).
@@ -17,8 +18,6 @@ The files _keras.json.for\_TensorFlow_ and _keras.json.for\_Theano_ provide a te
 
 An _environment.yml_ file for creating a suitable [conda environment](https://conda.io/docs/user-guide/tasks/manage-environments.html) is provided. 
 
-
-My goal has been to modify the original files to the minimum extent possible.The comments that I inserted in the modules generally start with *"# -"* when they are not just *"# Keras 2"*.
 
 ### Notes and issues about Part 2
 *neural-style.ipynb*: due to a function parameter change in _Keras 2.1_, the _VGG16_ provided by _Keras 2.1_ has been used instead of the original custom module _vgg16\_avg.py_
